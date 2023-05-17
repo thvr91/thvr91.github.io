@@ -5,7 +5,8 @@
 
 {% if entry.doi %}
 <p>
-  DOI: <button class="doi-button" onclick="window.location.href='https://doi.org/{{ entry.doi }}'">{{ entry.doi }}</button>
+  <button class="doi-button" onclick="window.location.href='https://doi.org/{{ entry.doi }}'"><span>DOI Link</span></button>
 </p>
 {% endif %}
 <a href="/path/to/bib/file.bib" download><button>Download BibTeX</button></a>
+
